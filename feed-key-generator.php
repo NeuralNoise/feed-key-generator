@@ -311,7 +311,7 @@ function wpfkg_provide_feed_link() {
 	}
 	else {
 		echo "<font color='999999'>$feedurl_text</font>"; ?><br />
-		<span class="description"><?php _e( 'The feed key is unactive; select "Activate Feed Key" and click on "Save Changes" button to activate', 'feed-key-generator' ) ?></span><?php
+		<span class="description"><?php _e( 'The feed key is inactive; select "Activate Feed Key" and click on "Save Changes" button to activate', 'feed-key-generator' ) ?></span><?php
 	}
 }
 
