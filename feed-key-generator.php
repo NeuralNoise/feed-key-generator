@@ -238,7 +238,7 @@ function wpfkg_feed_key_options_function() {
 			<tr>
 				<td><?php
 					// Generate reset link front
-					$reset_front = admin_url( 'options-privacy.php' );
+					$reset_front = admin_url( 'options-reading.php' );
 					// Generate reset link ending
 					$reset_append = '?reset=' . $feedkey;
 					
