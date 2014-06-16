@@ -2,8 +2,8 @@
 Contributors: alekarsovski, ubcdev, ctlt-dev
 Tags: feed, feed key, feed key generator, private feed, rss
 Requires at least: 3.2.1
-Tested up to: 3.2.1
-Stable tag: 1.0.8
+Tested up to: 3.9.1
+Stable tag: 1.0.9
 
 Protect feeds of private sites/blogs with feed keys. Tested on network using a MODIFIED version of "Network Privacy" plugin.
 
@@ -66,6 +66,10 @@ You're welcome to try other privacy settings plugins; however, keep in mind that
 3. Privacy Settings page when feed key is active
 
 == Changelog ==
+
+= 1.0.9 =
+
+Update settings to load on the reading pane not privacy (as this no longer exists). This also includes the reset button which caused a 404 error when pressed as it was trying to access a page which no longer exists in WP core.
 
 = 1.0.8 =
 
