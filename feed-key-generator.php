@@ -71,7 +71,7 @@ function wpfkg_feed_key_generator_admin_init() {
 	
 	// Register the feed key's status option with the privacy section
 	register_setting(
-		'privacy',
+		'reading',
 		'wpfkg_feed_key_status',
 		'wpfkg_feed_key_status_validate'
 	);
@@ -81,7 +81,7 @@ function wpfkg_feed_key_generator_admin_init() {
 		'feedkey_options_section',
 		__( 'Feed Key Generator', 'feed-key-generator' ),
 		'feedkey_options_section_text',
-		'privacy'
+		'reading'
 	);
 	
 	// Set up the feed key options field
@@ -89,7 +89,7 @@ function wpfkg_feed_key_generator_admin_init() {
 		'feedkey_options',
 		__( 'Feed Key', 'feed-key-generator' ),
 		'wpfkg_feed_key_options_function',
-		'privacy',
+		'reading',
 		'feedkey_options_section'
 	);
 	
